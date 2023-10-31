@@ -53,10 +53,23 @@
     }
     ol li:before{
         color: #999999;
-        
+        /* incrementar a variável em 1*/
+        counter-increment: contador;
         /* usar o número do contador como conteúdo*/
         content: "Questão" counter(contador)"\00BB";
     }
+    ul li a{
+        text-decoration: none;
+        color: #c0262c;
+        font-weight: bold;
+        padding: 7px;
+    }
+    ul li a:hover{
+        text-decoration: underline;
+    }
+    dd a[
+        target="_"
+    ]
 </style>
 
 </head>

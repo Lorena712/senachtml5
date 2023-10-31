@@ -7,3 +7,4 @@ livro html e css pag: 64
 Parte 2 da aula: atividade 7: colocando links(a)
 25/10 - pag 102
 26/10 - pag 105 - começo do exercicio 1 (hr faz os risquinho)
+30/10- pag 142- começamos a usar o css, tanto externo como interno
