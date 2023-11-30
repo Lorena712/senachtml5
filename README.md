@@ -10,3 +10,4 @@ Parte 2 da aula: atividade 7: colocando links(a)
 30/10- pag 142- começamos a usar o css, tanto externo como interno
 28/11- pag177 - terminei o capítilo 4 faltando apenas os exercicios, começamos a usa as tags : <main>, <footer>, <nav>, <aside>, <header>, <section> e <script>.
 finalizados os exercícios 1 e 2 do Cap 4
+29/11- leitura dos ultimos capítulos e exercícios feitos
