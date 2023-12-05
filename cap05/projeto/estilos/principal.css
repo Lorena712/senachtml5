@@ -61,22 +61,26 @@ th, td {
     padding: 7px;
 }
 
-#produtos caption{
+#produtos caption {
     background-color: #999;
     color: #fff;
     padding: 15px 0;
     font-size: 1.5em;
 }
-
-caption{
+/*caption {
     caption-side: bottom;
     background-color: #777;
     color: #fff;
     padding: 10px 0;
-}
+}*/
 
 #produtos td[colspan] {
     font-style: italic;
     font-weight: bold;
     color: #999;
 }
+
+#produtos th:houver{
+    background-color: #feff76;
+}
+
