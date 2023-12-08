@@ -1,0 +1,17 @@
+
+*{
+    background-color: #d1d1d1;
+}
+
+td img{
+    width: 280px;
+    height: 400px;
+    box-shadow:gray 5px 5px;
+}
+
+table{
+    width: 800px;
+    justify-content: flex-start;
+    border: 1px solid black;
+    flex-direction: column;
+}
