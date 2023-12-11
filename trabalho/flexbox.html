@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .flex-container {
+          display: flex;
+          background-color: rgb(100, 90, 189);
+        }
+        
+        .flex-container > div {
+          background-color: #ffee00;
+          margin: 10px;
+          padding: 10px;
+          font-size: 20px;
+        }
+        .cabeça{
+
+        }
+        .cabeça > div {
+        background-color: #90dce6;
+          padding: 10px;
+          font-size: 30px;
+          
+        }
+        .conteudo{
+            background-color: white;
+            
+        }
+        .conteudo > div {
+        background-color: #868686;
+          padding: 20px;
+          width: 97,5%;
+          height: 10px;
+        }
+        .pe{
+            justify-content:end;
+
+        }
+        .pe > div {
+        background-color: #1a3f44;
+          padding: 20px;
+          font-size: 10px;
+          width: 97,5%;
+          height: 10px;
+          flex-direction: row-reverse;
+          ;
+        }
+        
+        
+        </style>
+        
+    </style>
+</head>
+<body>
+    <div class="cabeça" id="cabeça">
+        <div>Loja legal</div>
+    </div>
+    <div class="flex-container">
+        <div><a href="">Menu</a></div>
+        <div><a href="">Produtos</a></div>
+        <div><a href="">Login</a></div>
+    </div>
+    <div  class="conteudo" id="conteudo">
+        <div>
+            <h1>Login</h1>
+            <form action="">
+                <label for="email">Email:</label><input type="email">
+            </form>
+        </div>
+    </div>
+    <div class="pe" id="pe">
+        <div>℗Blábláblá jurídico</div>
+    </div>
+    
+</body>
+</html>
