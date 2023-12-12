@@ -8,6 +8,8 @@ padding-bottom: 7px;
 
 h2 {
     font-size: 1.75em; /* 28/16=1.75 */
+    background: #c0262c url(../multimidia//back-bolinha.gif) repeat top center;
+    
 }
 
 p { 	
